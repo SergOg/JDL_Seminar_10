@@ -65,7 +65,7 @@ public class PhoneWin extends JFrame {
         log.setText("");
         for (Employee e :
                 EmployeeDirectory.directory) {
-            log.append(e.getPhoneNumber() + e.getPhoneName() + "\n");
+            log.append(e.getPhoneNumber() + " " + e.getPhoneName() + "\n");
         }
     }
 }
